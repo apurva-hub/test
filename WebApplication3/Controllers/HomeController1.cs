@@ -6,6 +6,7 @@ namespace WebApplication3.Controllers
     {
         public ViewResult login()
         {
+           //hwllo
             int[] a = { 1, 2, 3, 4 };
             ViewData["data"] = a;
             return View();  
